@@ -1,0 +1,206 @@
+.cc {
+    width: 100%;
+    height: 600px;
+    background: black url('../../img/top-view-coffee-cups-with-coffee-shovel_23-2148267819.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.cc .title {
+    width: 100%;
+    padding-top: 110px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cc .title h2 {
+    font-size: 45px;
+    padding-right: 75px;
+    font-weight: 590;
+}
+
+.cc .title2 {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cc .title2 span {
+    padding-right: 75px;
+}
+
+.cc .formSub {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 75px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cc .formSub input {
+    background-color: white;
+    color: black;
+    height: 55px;
+    width: 450px;
+    padding: 15px;
+}
+
+.cc .formSub button {
+    background-color: rgb(42, 222, 54);
+    color: white;
+    height: 55px;
+    border: none;
+    width: 100px;
+}
+
+.cc .formSub button:hover {
+    transition: 0.2s all ease-in-out;
+    background-color: rgb(51, 206, 62);
+}
+
+@media (min-width:320px) and (max-width:512px) {
+    .cc {
+        height: 450px;
+    }
+
+    .cc .title h2 {
+        padding: 0;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .cc .title {
+        padding-top: 60px;
+        padding-right: 10px;
+        width: 60%;
+    }
+
+    .cc .title2 {
+        width: 60%;
+        padding-right: 10px;
+    }
+
+    .cc .title2 span {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .cc .formSub {
+        padding: 45px 0;
+        width: 60%;
+    }
+
+    .cc .formSub input {
+        height: 45px;
+        padding-right: 10px;
+        margin-right: 7px;
+        font-size: 13px;
+        width: 200px;
+    }
+
+    .cc .formSub button {
+        margin-right: 7px;
+        height: 42px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:512px) and (max-width:900px) {
+    .cc {
+        height: 450px;
+    }
+
+    .cc .title h2 {
+        padding: 0;
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .cc .title {
+        padding-top: 60px;
+        padding-right: 10px;
+        width: 60%;
+    }
+
+    .cc .title2 {
+        width: 60%;
+        padding-right: 10px;
+    }
+
+    .cc .title2 span {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .cc .formSub {
+        padding: 45px 0;
+        width: 60%;
+    }
+
+    .cc .formSub input {
+        height: 45px;
+        padding-right: 10px;
+        margin-right: 7px;
+        font-size: 13px;
+        width: 200px;
+    }
+
+    .cc .formSub button {
+
+        height: 42px;
+        font-size: 14px;
+    }
+}
+
+@media (min-width:901px) and (max-width:1200px) {
+    .cc {
+        height: 450px;
+    }
+
+    .cc .title h2 {
+        padding: 0;
+        font-size: 26px;
+        font-weight: 600;
+    }
+
+    .cc .title {
+        padding-top: 60px;
+        padding-right: 25px;
+        width: 60%;
+    }
+
+    .cc .title2 {
+        width: 60%;
+        padding-right: 25px;
+    }
+
+    .cc .title2 span {
+        padding: 0;
+        font-size: 17px;
+    }
+
+    .cc .formSub {
+        padding: 60px 15px;
+        width: 60%;
+    }
+
+    .cc .formSub input {
+        height: 45px;
+        padding-right: 10px;
+        margin-right: 7px;
+        font-size: 13px;
+        width: 350px;
+    }
+
+    .cc .formSub button {
+
+        height: 42px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,14 @@
+.w {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ma {
+    width: 100%;
+    background-color: black;
+}

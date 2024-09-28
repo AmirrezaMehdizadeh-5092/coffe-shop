@@ -1,0 +1,148 @@
+.about {
+    width: 100%;
+    background: #fff9c4d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.about .left {
+    width: 50%;
+    padding: 50px 15px;
+}
+
+.about .left .l1 {
+    width: 100%;
+}
+
+.about .left .l1 h2 {
+    padding: 0;
+    color: #020d0f;
+    line-height: 70px;
+    font-size: 60px;
+    padding-right: 50px;
+    font-weight: 550;
+}
+
+.about .left .l2 {
+    width: 100%;
+}
+
+.about .left .l2 p {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 17px;
+    line-height: 28px;
+    color: #000;
+    padding: 35px 50px;
+}
+
+.about .left .l3 {
+    width: 100%;
+}
+
+.about .left .l3 .l3_1 {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.about .left .l3 .l3_1 span {
+    color: white;
+    font-size: 14px;
+}
+
+.about .left .l3 .l3_1:hover {
+    transition: 0.2s all ease-in-out;
+    background-color: #0ed1f0;
+}
+
+.about .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 50px 0;
+}
+
+.about .right img {
+    margin-top: -90px;
+    height: 550px;
+    width: 550px;
+}
+
+@media (min-width:320px) and (max-width:480px) {
+
+    .about .left,
+    .about .right {
+        width: 100%;
+        padding: 25px 25px;
+    }
+
+    .about .left .l2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .about .left .l1 h2 {
+        padding-right: 75px;
+        font-size: 45px;
+    }
+
+    .about .left .l2 p {
+        padding: 35px 0;
+        font-size: 14px;
+    }
+
+    .about .right {
+        padding-top: 0;
+    }
+
+    .about .left .l3 .l3_1 {
+        margin-right: 88px;
+    }
+
+    .about .right img {
+        margin-top: -50px;
+    }
+}
+
+@media (min-width:481px) and (max-width:768px) {
+
+    .about .left,
+    .about .right {
+        width: 100%;
+        padding: 30px 25px;
+    }
+
+    .about .left .l2 {
+        padding: 0;
+        margin: 0;
+    }
+
+    .about .left .l1 h2 {
+        padding-right: 50px;
+        font-size: 50px;
+    }
+
+    .about .left .l2 p {
+        padding: 35px 0;
+        font-size: 16px;
+    }
+
+    .about .right {
+        padding-top: 0;
+    }
+
+    .about .left .l3 .l3_1 {
+        margin-right: 100px;
+    }
+}
